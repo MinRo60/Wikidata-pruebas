@@ -1,0 +1,391 @@
+El wikiproyecto Bases de Datos de Biociencias tiene como objetivo curar las bases de datos de Biociencias disponibles en la Web para tener información completa, estructurada, actualizada, fiable y de calidad para ser utilizada en investigación, enseñanza, difusión, comunicación y gestión científica, especialmente en el área de las ciencias de la vida, biomedicina, biodiversidad y bioinformática.
+
+
+Sumario
+1	El proyecto
+1.1	Objetivos
+1.2	Antecedentes
+1.3	Preguntas
+1.4	El plan de trabajo
+1.4.1	Notas
+2	Elementos
+2.1	Elementos principales
+2.1.1	Descrito en catálogos, plataformas o bases de datos de calidad
+2.1.2	Identificadores
+2.2	Otros elementos
+3	Propiedades
+3.1	Propiedades principales
+3.2	Otras propiedades
+4	Consultas
+4.1	Consultas principales
+4.1.1	Consulta para obtener las bases de datos de biociencias
+4.2	Otras consultas
+5	Herramientas
+5.1	Propiedades de Wikidata
+5.2	Edición de Wikidata
+5.3	Ver wikidata
+5.4	Wikiproyectos
+6	Proyectos relacionados
+7	Subpáginas
+8	Participantes
+El proyecto
+Objetivos
+Queremos reunir todas las bases de datos abiertas para biociencias en Wikidata, para que sean encontrables, accesibles y usadas por investigadores, profesores, estudiantes e interesados en las biociencias. Existen miles de bases de datos con información generada por las investigaciones científicas, pero es difícil encontrarlas y saber qué contienen para poder reutilizarlas en la generación de nuevas preguntas. Nuestra meta es que todos los interesados tengan acceso a la información y puedan procesarla, en especial en los países que no son angloparlantes y que tienen menos materiales que expliquen la información especializada al público en general.
+
+Nos proponemos difundir el uso de las bases de datos en la enseñanza universitaria y promover las biociencias in silico entre los ciudadanos interesados en la ciencia.
+
+Antecedentes
+En enero de 2022 empecé a consultar las bases de datos biológicas en Wikipedia y había muy pocas y desactualizadas, esto me llevó a verlas en Wikidata y sucedió lo mismo, faltan metadatos y solo había más de 700 bases de datos. Poco después empecé a registrar las bases de datos indexadas en The NAR online Molecular Biology Database Collection y en Bioregistry. Entonces para febrero de este mismo año reuní a varios colaboradores de mi equipo para completar con detalle las bases de datos de biociencias en Wikidata.
+
+Hemos reunido algunas fuentes anteriores que hemos usado como referencia y que listo a continuación.
+
+https://meta.wikimedia.org/wiki/WikiCite_2016/Proposals/Making_wikidata_a_central_hub_on_data_licensing
+
+https://etherpad.wikimedia.org/p/WikiCiteExtra
+
+Entendemos por Biociencias al dominio de conocimiento que integra todos aquellos saberes de interés para las ciencias de la vida, médicas y biomédicas.
+
+Preguntas
+Queremos indagar las respuestas a las siguientes preguntas y generar mapas de conocimiento para responderlas:
+
+Cuántas bases de datos existen y sobre qué temas tratan
+Qué tipos de entidades biológicas indexan
+En qué investigaciones e innovaciones se aplican
+Cuáles son las más utilizadas
+Cómo son utilizadas
+El plan de trabajo
+Agregar las fuentes de información sobre bases de datos en Wikidata
+Indexar las bases de datos y catálogos de bases de datos, ontologías y herramientas asociadas a wikidata
+Curar las bases de datos de Biociencias de Wikidata para obtener gráficas de conocimiento actualizadas y de calidad
+Agregar en Wikidata las bases de datos registradas en The NAR online Molecular Biology Database Collection
+Agregar las bases de datos registradas en Bioregistry que no tienen una entrada en Wikidata Bioregistry NO Wikidata
+Bases de datos, ontologías y herramientas para Biología del Color y Color en los seres vivos
+Bases de datos, ontologías y herramientas para herpetología
+Bases de datos, ontologías y herramientas para investigar sobre enfermedades
+Adicionar las bases de datos de biociencias generadas en México en Wikidata
+Notas
+En este servicio podemos realizar notas https://etherpad.wikimedia.org/p/Bases_de_Datos_Biociencias
+
+Elementos
+Estos son algunos ejemplos de registros de bases de datos de biociencias en wikidata que se pueden consultar como ejemplo para facilitar la comprensión de los elementos y las propiedades utilizadas para describir estas entidades.
+
+Biodiversity Heritage Library Q172266
+Uniprot Q905695
+Inaturalist Q16958215
+Arxiv Q118398
+Elementos principales
+https://www.wikidata.org/wiki/Q4117139	biological database
+https://www.wikidata.org/wiki/Q1916557	medical database
+https://www.wikidata.org/wiki/Q5570651	global species database
+https://www.wikidata.org/wiki/Q1789476	bibliographic database
+https://www.wikidata.org/wiki/Q7689673	taxonomic database
+https://www.wikidata.org/wiki/Q2881060	chemical database
+https://www.wikidata.org/wiki/Q28208970	model organism database
+https://www.wikidata.org/wiki/Q24577212	citizen science project
+Descrito en catálogos, plataformas o bases de datos de calidad
+Existen varias fuentes para localizar bases de datos de biocienicencias de calidad que serán usadas como referencias.
+
+https://www.wikidata.org/wiki/Q109302681	The Bioregistry
+https://www.wikidata.org/wiki/Q110577062	The NAR online Molecular Biology Database Collection
+https://www.wikidata.org/wiki/Q23876293	SciCrunch
+https://www.wikidata.org/wiki/Q18393912	Registry of Research Data Repositories
+Identificadores
+Q16335166	Identifiers.org Registry
+Otros elementos
+https://www.wikidata.org/wiki/Q35127	website - Wikidata
+Propiedades
+Propiedades principales
+Estas son algunas de las propiedades que se usan para describir a las bases de datos
+Property:P31	instance of
+Property:P1813	short name
+Property:P856	official website
+Property:P577	publication date
+Property:P571	inception
+Property:P2699	URL
+Property:P17	country
+Property:P144	based on
+Property:P275	copyright license
+Property:P6216	copyright status
+Property:P126	maintained by
+Property:P1343	described by source
+Property:P361	part of
+Property:P921	main subject
+Property:P101	field of work
+Property:P98	editor
+Property:P7228	access restriction status
+Property:P1019	web feed URL
+Property:P1889	different from
+Property:P6269	API endpoint
+Property:P2671	Google Knowledge Graph ID
+Property:P407	language of work or name
+Property:P1687	Wikidata property
+Property:P112	founded by
+Property:P136	genre
+Property:P2002	Twitter username
+Property:P4876	Number of records
+Algunos identificadores para estos elementos son los siguientes:
+
+Property:P4793	identifiers.org prefix
+Property:P646	Freebase ID
+Property:P8605	Linked Open Data Cloud identifier
+Property:P2671	Google Knowledge Graph ID
+Otras propiedades
+Property:P248	stated in
+Property:P195	collection
+Property:P248	stated in
+Property:P400	platform
+Property:P457	foundational text
+Property:P921	main subject
+Property:P1019	web feed URL
+Property:P1640	curator
+Property:P2647	source of material
+Property:P2701	file format
+Property:P944	Code of nomenclature
+Property:P1163	media type
+Consultas
+Consultas principales
+Estas consultas son las que más utilizamos para recuperar información de Wikidata en el proceso de biocuración, algunas las hemos realizado nosotros, otras nos las han compartido colaboradores y las últimas las hemos reunido a través de Google y Twitter. ¡Gracias a todos los que comparten sus consultas en SPARQL!
+
+Consulta para obtener las bases de datos de biociencias
+Esta es la consulta para recuperar todas las dbs biológicas y médicashttps://w.wiki/4i9n
+Items used: base de datos biológica (Q4117139)  Ver con Reasonator Ver con SQID, base de datos médica (Q1916557)  Ver con Reasonator Ver con SQID
+Properties used: subclase de (P279)  Ver con Reasonator Ver con SQID, página web oficial (P856)  Ver con Reasonator Ver con SQID, instancia de (P31)  Ver con Reasonator Ver con SQID
+# another property should be used
+SELECT DISTINCT ?item ?itemLabel ?p_gina_web_oficial WHERE {
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE]". }
+  {
+    SELECT DISTINCT ?item WHERE {
+      {
+        ?item p:P31 ?statement0.
+        ?statement0 (ps:P31/(wdt:P279*)) wd:Q4117139.
+      }
+      UNION
+      {
+        ?item p:P31 ?statement1.
+        ?statement1 (ps:P31/(wdt:P279*)) wd:Q1916557.
+      }
+    }
+    LIMIT 3000
+  }
+  OPTIONAL { ?item wdt:P856 ?p_gina_web_oficial. }
+}
+Try it!
+
+Esta consulta muestra los nombres de las bases de datos con etiqueta en ingles
+
+Items used: base de datos biológica (Q4117139)  Ver con Reasonator Ver con SQID, base de datos médica (Q1916557)  Ver con Reasonator Ver con SQID
+Properties used: subclase de (P279)  Ver con Reasonator Ver con SQID, página web oficial (P856)  Ver con Reasonator Ver con SQID, instancia de (P31)  Ver con Reasonator Ver con SQID
+# another property should be used
+SELECT DISTINCT ?item ?itemLabel ?p_gina_web_oficial WHERE {
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+  {
+    SELECT DISTINCT ?item WHERE {
+      {
+        ?item p:P31 ?statement0.
+        ?statement0 (ps:P31/(wdt:P279*)) wd:Q4117139.
+      }
+      UNION
+      {
+        ?item p:P31 ?statement1.
+        ?statement1 (ps:P31/(wdt:P279*)) wd:Q1916557.
+      }
+    }
+    LIMIT 3000
+  }
+  OPTIONAL { ?item wdt:P856 ?p_gina_web_oficial. }
+}
+Try it!
+
+Bases de datos Biológicas
+Items used: base de datos biológica (Q4117139)  Ver con Reasonator Ver con SQID
+Properties used: instancia de (P31)  Ver con Reasonator Ver con SQID, imagen (P18)  Ver con Reasonator Ver con SQID
+# another property should be used
+SELECT DISTINCT ?item ?itemLabel ?itemDescription (SAMPLE(?image) AS ?image) ?sitelink WHERE {
+  ?item wdt:P31 wd:Q4117139.
+  OPTIONAL { ?item wdt:P18 ?image. }
+  OPTIONAL {
+    ?sitelink schema:about ?item;
+      schema:isPartOf <https://es.wikipedia.org/>.
+  }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en,fr,es,de,ru,it,nl,ja,zh,pl,cs". }
+}
+GROUP BY ?item ?itemLabel ?itemDescription ?sitelink
+LIMIT 1000
+Try it!
+
+Esta consulta obtiene todas las bases de datos en Wikidata que tienen una propiedad de Wikidata asociada y alguna otra información interesante que la acompaña https://w.wiki/4uTZ
+Items used: base de datos biológica (Q4117139)  Ver con Reasonator Ver con SQID
+Properties used: instancia de (P31)  Ver con Reasonator Ver con SQID, propiedad asociada de Wikidata (P1687)  Ver con Reasonator Ver con SQID, página web oficial (P856)  Ver con Reasonator Ver con SQID, prefijo identifiers.org (P4793)  Ver con Reasonator Ver con SQID, formato de URL (P1630)  Ver con Reasonator Ver con SQID, estructura URL para recurso RDF (P1921)  Ver con Reasonator Ver con SQID, expresión regular para el formato (P1793)  Ver con Reasonator Ver con SQID, sitio web de referencia para la propiedad (P1896)  Ver con Reasonator Ver con SQID, elemento asociado (P1629)  Ver con Reasonator Ver con SQID
+# another property should be used
+SELECT
+        ?database ?databaseLabel ?databaseMiriam ?databaseHomepage
+        ?prop ?propLabel ?propMiriam ?propHomepage ?propFormat ?propFormatRDF ?propPattern
+        # ?propDatabase ?propDatabaseLabel
+    WHERE {
+        ?database wdt:P31 wd:Q4117139 .
+        ?database wdt:P1687 ?prop .
+        OPTIONAL { ?database wdt:P856 ?databaseHomepage } .
+        OPTIONAL { ?database wdt:P4793 ?databaseMiriam } .
+        OPTIONAL { ?prop wdt:P4793 ?propMiriam } .
+        OPTIONAL { ?prop wdt:P1630 ?propFormat } .
+        OPTIONAL { ?prop wdt:P1921 ?propFormatRDF } .
+        OPTIONAL { ?prop wdt:P1793 ?propPattern } .
+        OPTIONAL { ?prop wdt:P1896 ?propHomepage } .
+        OPTIONAL { ?prop wdt:P1629 ?propDatabase } .
+        SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+    }
+    ORDER BY DESC(?databaseLabel)
+Try it!
+
+Bases de datos bibliográficas en Biociencias https://w.wiki/4jRW
+Items used: base de datos biológica (Q4117139)  Ver con Reasonator Ver con SQID, base de datos médica (Q1916557)  Ver con Reasonator Ver con SQID, base de datos bibliográfica (Q1789476)  Ver con Reasonator Ver con SQID
+Properties used: subclase de (P279)  Ver con Reasonator Ver con SQID, instancia de (P31)  Ver con Reasonator Ver con SQID
+# another property should be used
+SELECT DISTINCT ?item ?itemLabel WHERE {
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE]". }
+  {
+    SELECT DISTINCT ?item WHERE {
+      {
+        ?item p:P31 ?statement0.
+        ?statement0 (ps:P31/(wdt:P279*)) wd:Q4117139.
+      }
+      UNION
+      {
+        ?item p:P31 ?statement1.
+        ?statement1 (ps:P31/(wdt:P279*)) wd:Q1916557.
+      }
+      ?item p:P31 ?statement2.
+      ?statement2 (ps:P31/(wdt:P279*)) wd:Q1789476.
+    }
+    LIMIT 3000
+  }
+}
+Try it!
+
+Patrocinadores de las bases de datos biológicas https://w.wiki/4veo
+Items used: base de datos biológica (Q4117139)  Ver con Reasonator Ver con SQID
+Properties used: instancia de (P31)  Ver con Reasonator Ver con SQID, patrocinador (P859)  Ver con Reasonator Ver con SQID
+# another property should be used
+SELECT ?item ?itemLabel ?sponsor ?sponsorLabel 
+WHERE {
+  ?item wdt:P31 wd:Q4117139.
+  ?item wdt:P859 ?sponsor.
+ SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+  }
+Try it!
+
+Gráfico de burbujas sobre los tipos de licencia actualmente enumerados en las bases de datos biológicas en Wikidata: https://w.wiki/4ver
+Items used: base de datos biológica (Q4117139)  Ver con Reasonator Ver con SQID
+Properties used: instancia de (P31)  Ver con Reasonator Ver con SQID, licencia (P275)  Ver con Reasonator Ver con SQID
+# another property should be used
+SELECT DISTINCT ?license (count(?license) as ?licenseType)
+WHERE
+{
+	?item wdt:P31 wd:Q4117139 ;
+          rdfs:label ?name .
+    OPTIONAL {?item  wdt:P275 ?licenseItem .
+    ?licenseItem rdfs:label ?license . 
+    FILTER (LANG(?license) = "en")}
+    FILTER (LANG(?name) = "en")	
+}
+GROUP BY ?license
+Try it!
+
+Consulta para ver todos los registros de la base de datos NAR en Wikidata https://w.wiki/4urn
+Items used: La colección de bases de datos de biología molecular en línea de NAR (Q110577062)  Ver con Reasonator Ver con SQID
+Properties used: descrito en (P1343)  Ver con Reasonator Ver con SQID
+# another property should be used
+SELECT ?item ?itemLabel WHERE {
+  ?item wdt:P1343 wd:Q110577062.
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+}
+Try it!
+
+Consulta que enumera todas las bases de datos que tienen el predicado "descrito por la fuente" que apunta al Bioregistry https://w.wiki/4uJy
+Items used: The Bioregistry (Q109302681)  Ver con Reasonator Ver con SQID
+Properties used: descrito en (P1343)  Ver con Reasonator Ver con SQID
+# another property should be used
+SELECT ?item ?itemLabel 
+WHERE 
+{
+  ?item wdt:P1343 wd:Q109302681.
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+}
+Try it!
+
+Juego de cartas para Bases de datos biológicas https://cardgame.morr.cc/?Q4117139
+Otras consultas
+...
+Herramientas
+Estas son las herramientas que utilizamos para la realización del proyecto
+
+Propiedades de Wikidata
+https://bambots.brucemyers.com/WikidataClasses.php?id=Q4117139&lang=es
+
+Edición de Wikidata
+Help:QuickStatements
+
+https://cradle.toolforge.org/#/
+
+https://github.com/SuLab/WikidataIntegrator
+
+https://lubianat.shinyapps.io/topictagger/
+
+Special:MergeItems
+
+Ver wikidata
+https://kgtk.isi.edu/browser/Q4117139
+
+https://qhub.info/Q4117139?tab=data-links
+
+Wikiproyectos
+Category:WikiProject resources
+
+https://www.wikidata.org/wiki/Wikidata:WikiProjects
+
+https://www.wikidata.org/wiki/Wikidata:WikiProjects/List
+
+Symbol note.svg Info You can use the AutoEdit tool to quickly add label and description on Bases de Datos Biociencias in many languages.
+
+Proyectos relacionados
+Estos son algunos proyectos relacionados
+
+WikiProject Books
+WikiProject Periodicals
+WikiProject Source MetaData
+WikiProject Biology
+WikiProject Botany
+WikiProject Taxonomy
+Wikidata:Wikispecies
+anatomical structure
+iNaturalist
+taxonomy
+WikiProject Elixir
+WikiProject BHL
+Wikidata property related to anatomy
+knowledge organization system
+retraction
+open science hardware
+Subpáginas
+Bases de Datos Biociencias/Avances del proyecto
+Bases de Datos Biociencias/Bioregistry
+Bases de Datos Biociencias/Fuentes
+Bases de Datos Biociencias/NAR
+Bases de Datos Biociencias/Participants
+Bases de Datos Biociencias/¿Cómo contribuir?
+Participantes
+[+] Add yourself to the list
+The participants listed below can be notified using the following template in discussions:
+
+{{Ping project|Bases de Datos Biociencias}}
+
+Lmichan
+MinRo60
+PaolaCov
+Brenda Guillen
+VictorinoLavida
+CondeAdrian
+Yessica Galicia
+Delia Gonzale Marin
+Jacquelineparedessanchez
+Categorías: Lists of WikiProject participantsBases de Datos Biociencias
